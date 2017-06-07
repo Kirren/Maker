@@ -19,6 +19,14 @@ exports.blocks = [
         "name": "page",
         "elems": [
             {
+                "name": "meta"
+            }
+        ]
+    },
+    {
+        "name": "page",
+        "elems": [
+            {
                 "name": "css"
             }
         ]
@@ -32,93 +40,69 @@ exports.blocks = [
         ]
     },
     {
-        "name": "hello"
+        "name": "head"
     },
     {
-        "name": "hello",
+        "name": "head",
         "elems": [
             {
-                "name": "greeting"
+                "name": "logo"
             }
         ]
     },
     {
-        "name": "input"
-    },
-    {
-        "name": "input",
-        "mods": [
-            {
-                "name": "theme",
-                "vals": [
-                    {
-                        "name": "islands"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "input",
-        "mods": [
-            {
-                "name": "size",
-                "vals": [
-                    {
-                        "name": "m"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "hello",
+        "name": "head",
         "elems": [
             {
-                "name": "input"
+                "name": "menu"
             }
         ]
     },
     {
-        "name": "button"
-    },
-    {
-        "name": "button",
-        "mods": [
+        "name": "head",
+        "elems": [
             {
-                "name": "theme",
-                "vals": [
-                    {
-                        "name": "islands"
-                    }
-                ]
+                "name": "heading"
             }
         ]
     },
     {
-        "name": "button",
-        "mods": [
+        "name": "mission"
+    },
+    {
+        "name": "mission",
+        "elems": [
             {
-                "name": "size",
-                "vals": [
-                    {
-                        "name": "m"
-                    }
-                ]
+                "name": "number"
             }
         ]
     },
     {
-        "name": "button",
-        "mods": [
+        "name": "mission",
+        "elems": [
             {
-                "name": "type",
-                "vals": [
-                    {
-                        "name": "submit"
-                    }
-                ]
+                "name": "image"
             }
         ]
+    },
+    {
+        "name": "mission",
+        "elems": [
+            {
+                "name": "text"
+            }
+        ]
+    },
+    {
+        "name": "projects"
+    },
+    {
+        "name": "team"
+    },
+    {
+        "name": "event"
+    },
+    {
+        "name": "footer"
     }
 ];

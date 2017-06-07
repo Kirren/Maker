@@ -1,35 +1,83 @@
-({
+'use strict';
+
+module.exports = {
     block : 'page',
-    title : 'maker',
+    title : 'Maker',
+    favicon: '/favicon.ico',
     head : [
-        { elem : 'css', url : 'maker.min.css' }
+        { elem : 'meta', attrs : { name: 'Single page template', content: '' }},
+        { elem : 'css', url : 'index.min.css' }
     ],
-    scripts : [{ elem : 'js', url : 'maker.min.js' }],
+    scripts : [{ elem : 'js', url : 'index.min.js' }],
     mods : { theme : 'islands' },
     content : [
         {
-            block : 'hello',
+            block : 'head',
+            content: [
+                {
+                    elem: 'logo',
+                    content: 'logo goes here'
+                },
+
+                {
+                    elem: 'menu',
+                    content: 'menu button goes here'
+                },
+
+                {
+                    elem: 'heading',
+                    content: 'we build innovative companies'
+                }
+            ]
+        },
+
+        {
+            block : 'mission',
             content : [
                 {
-                    elem : 'greeting',
-                    content : 'Привет, %пользователь%!'
+                    elem: 'number',
+                    content: '01'
                 },
+
                 {
-                    block : 'input',
-                    mods : { theme: 'islands', size : 'm' },
-
-                    // подмешиваем элемент для добавления CSS-правил
-                    mix : { block : 'hello', elem : 'input' },
-
-                    name : 'name',
-                    placeholder : 'Имя пользователя'
+                    elem: 'image',
+                    content: ''
                 },
+
                 {
-                    block : 'button',
-                    mods : { theme : 'islands', size : 'm', type : 'submit' },
-                    text : 'Нажать'
+                    elem: 'text',
+                    content: '...'
                 }
+
+            ]
+        },
+
+        {
+            block : 'projects',
+            content : [
+
+            ]
+        },
+
+        {
+            block : 'team',
+            content : [
+
+            ]
+        },
+
+        {
+            block : 'event',
+            content : [
+
+            ]
+        },
+
+        {
+            block : 'footer',
+            content : [
+
             ]
         }
     ]
-})
+};

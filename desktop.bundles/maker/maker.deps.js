@@ -104,136 +104,50 @@ exports.deps = [
         "elem": "svg"
     },
     {
-        "block": "hello"
+        "block": "page",
+        "elem": "meta"
     },
     {
-        "block": "hello",
-        "elem": "greeting"
+        "block": "head"
     },
     {
-        "block": "input"
+        "block": "head",
+        "elem": "logo"
     },
     {
-        "block": "input",
-        "mod": "disabled"
+        "block": "head",
+        "elem": "menu"
     },
     {
-        "block": "input",
-        "mod": "focused"
+        "block": "head",
+        "elem": "heading"
     },
     {
-        "block": "input",
-        "elem": "box"
+        "block": "mission"
     },
     {
-        "block": "input",
-        "elem": "control"
+        "block": "mission",
+        "elem": "number"
     },
     {
-        "block": "control"
+        "block": "mission",
+        "elem": "image"
     },
     {
-        "block": "jquery",
-        "elem": "event"
-    },
-    {
-        "block": "jquery",
-        "elem": "event",
-        "mod": "type"
-    },
-    {
-        "block": "jquery",
-        "elem": "event",
-        "mod": "type",
-        "val": "pointerclick"
-    },
-    {
-        "block": "jquery",
-        "elem": "event",
-        "mod": "type",
-        "val": "pointernative"
-    },
-    {
-        "block": "tick"
-    },
-    {
-        "block": "idle"
-    },
-    {
-        "block": "input",
-        "mod": "theme"
-    },
-    {
-        "block": "input",
-        "mod": "theme",
-        "val": "islands"
-    },
-    {
-        "block": "input",
-        "mod": "size"
-    },
-    {
-        "block": "input",
-        "mod": "size",
-        "val": "m"
-    },
-    {
-        "block": "hello",
-        "elem": "input"
-    },
-    {
-        "block": "button"
-    },
-    {
-        "block": "button",
-        "mod": "focused"
-    },
-    {
-        "block": "button",
-        "mod": "hovered"
-    },
-    {
-        "block": "button",
-        "mod": "disabled"
-    },
-    {
-        "block": "button",
-        "mod": "pressed"
-    },
-    {
-        "block": "button",
+        "block": "mission",
         "elem": "text"
     },
     {
-        "block": "keyboard",
-        "elem": "codes"
+        "block": "projects"
     },
     {
-        "block": "button",
-        "mod": "theme"
+        "block": "team"
     },
     {
-        "block": "button",
-        "mod": "theme",
-        "val": "islands"
+        "block": "event"
     },
     {
-        "block": "button",
-        "mod": "size"
-    },
-    {
-        "block": "button",
-        "mod": "size",
-        "val": "m"
-    },
-    {
-        "block": "button",
-        "mod": "type"
-    },
-    {
-        "block": "button",
-        "mod": "type",
-        "val": "submit"
+        "block": "footer"
     },
     {
         "block": "loader",
@@ -250,48 +164,6 @@ exports.deps = [
         "block": "i-bem-dom",
         "elem": "init",
         "mod": "auto",
-        "val": true
-    },
-    {
-        "block": "input",
-        "mod": "disabled",
-        "val": true
-    },
-    {
-        "block": "input",
-        "mod": "focused",
-        "val": true
-    },
-    {
-        "block": "jquery",
-        "elem": "event",
-        "mod": "type",
-        "val": "pointer"
-    },
-    {
-        "block": "jquery",
-        "elem": "event",
-        "mod": "type",
-        "val": "pointerpressrelease"
-    },
-    {
-        "block": "button",
-        "mod": "focused",
-        "val": true
-    },
-    {
-        "block": "button",
-        "mod": "hovered",
-        "val": true
-    },
-    {
-        "block": "button",
-        "mod": "disabled",
-        "val": true
-    },
-    {
-        "block": "button",
-        "mod": "pressed",
         "val": true
     }
 ];
